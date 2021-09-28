@@ -28,7 +28,7 @@ namespace RabbitMqProducerLesson2
                     int i = 1;
                     while(true)
                     {
-                        string message = $"[x] Produced message {i++}";
+                        string message = $"Produced message {i++}";
                         byte[] body = Encoding.UTF8.GetBytes(message);
 
                         channel.BasicPublish(
@@ -37,6 +37,7 @@ namespace RabbitMqProducerLesson2
                             basicProperties: properties,
                             body: body);
 
+                        Console.WriteLine($"[x] Send {message}");
                         Thread.Sleep(1000);
                     }
                 }

@@ -14,6 +14,8 @@ namespace RabbitMqConsumerLesson2
             IConnection connection = factory.CreateConnection();
             IModel channel = connection.CreateModel();
 
+            channel.BasicQos(prefetchSize: 0, prefetchCount: 10, global: false);
+
             EventingBasicConsumer consumer = new EventingBasicConsumer(channel);
 
             consumer.Received += (sender, e) =>
