@@ -11,9 +11,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitMqConsumerLesson2", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitMqProducerLesson2", "RabbitMqProducerLesson2\RabbitMqProducerLesson2.csproj", "{6EB8C95B-B8B2-4926-8FF5-5E63A451863E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMqConsumerLesson3", "RabbitMqConsumerLesson3\RabbitMqConsumerLesson3.csproj", "{FD9C6098-BE27-4539-88C3-71E84AB22D80}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitMqConsumerLesson3", "RabbitMqConsumerLesson3\RabbitMqConsumerLesson3.csproj", "{FD9C6098-BE27-4539-88C3-71E84AB22D80}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMqProducerLesson3", "RabbitMqProducerLesson3\RabbitMqProducerLesson3.csproj", "{C0549F91-6E60-47DD-9CF6-B0094568166A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitMqProducerLesson3", "RabbitMqProducerLesson3\RabbitMqProducerLesson3.csproj", "{C0549F91-6E60-47DD-9CF6-B0094568166A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMqConsumerLesson4", "RabbitMqConsumerLesson4\RabbitMqConsumerLesson4.csproj", "{CD2AEA8C-B0F2-4F4C-ACEA-F2CF24B5D3E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMqProducerLesson4", "RabbitMqProducerLesson4\RabbitMqProducerLesson4.csproj", "{752A37E7-EDC2-4D3F-89F5-D0BA3E917B74}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +49,14 @@ Global
 		{C0549F91-6E60-47DD-9CF6-B0094568166A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C0549F91-6E60-47DD-9CF6-B0094568166A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C0549F91-6E60-47DD-9CF6-B0094568166A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD2AEA8C-B0F2-4F4C-ACEA-F2CF24B5D3E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD2AEA8C-B0F2-4F4C-ACEA-F2CF24B5D3E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD2AEA8C-B0F2-4F4C-ACEA-F2CF24B5D3E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD2AEA8C-B0F2-4F4C-ACEA-F2CF24B5D3E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{752A37E7-EDC2-4D3F-89F5-D0BA3E917B74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{752A37E7-EDC2-4D3F-89F5-D0BA3E917B74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{752A37E7-EDC2-4D3F-89F5-D0BA3E917B74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{752A37E7-EDC2-4D3F-89F5-D0BA3E917B74}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
